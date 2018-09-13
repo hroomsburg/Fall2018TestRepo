@@ -1,0 +1,77 @@
+.user-link{
+	float:right;
+	color:steelblue;
+}
+body{
+	font-family: Arial,helvetica,sans-serif;
+}
+.main-content{
+	background-color: #ffffff;
+	margin-top:20px;
+	margin-bottom: 20px;
+	margin-left: inherit;
+	margin-right:inherit;
+	width:960px;
+	height:auto;
+}
+.page-heading{
+	padding: 20px;
+}
+
+.navigation{
+	background-image: linear-gradient(#1e5799,#7db9e8 );
+	font-size: 22px;
+	color:#ffffff;
+    font-weight: bold;
+	padding: 10px;
+}
+a{
+	color:#ffffff;
+}
+.hero{
+	width:100%;
+	margin-left: 10px;
+	
+}
+div { box-sizing: border-box; }
+
+.container {
+  display: flex;
+background-color: #ffffff;	
+  justify-content: center;
+  align-content: flex-start;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+justify-content:space-between;
+	height: 2000px;
+	max-width: 960px;
+	Margin-top: 20px;
+	margin-bottom:20px;
+	margin-left: 20px;
+	margin-right:20px;
+	align-text:center;
+  }
+
+.circle {
+    border-radius: 50%;
+    background-color: #7db9e8;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px; 
+    margin: 0.5em;
+}
+.circle:hover {
+  background-color: #003366 ;
+  border-style: dotted;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  align-text: center;
+ 	}
+h2{
+	align-text:center;
+
